@@ -8,9 +8,9 @@ This gem is based heavily on the [FontAwesome SASS gem](https://github.com/FortA
 
 Add this line to your application's Gemfile:
 
-```ruby
-gem 'foundation-icons-sass'
-```
+  ```ruby
+  gem 'foundation-icons-sass'
+  ```
 
 And then execute:
 
@@ -26,9 +26,25 @@ If you use Rails add this to e.g. application.css.scss:
 
     *= require foundation-icons
 
+With Compass, just do:
+
+    @import foundation-icons
+
+With Jekyll, you can use it with jekyll-assets by putting this in your `_plugins/ext.rb`:
+
+  ```ruby
+  require 'jekyll-assets/foundation-icons'
+  ```
+
+and then this in your `whatever.sass`:
+
+    @import foundation-icons
+
 Then you can use the icons as such:
 
-    <i class="fi-social-github"></i>
+  ```html
+  <i class="fi-social-github"></i>
+  ```
 
 ## Rails Helper usage
 
