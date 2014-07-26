@@ -22,5 +22,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
   spec.add_development_dependency 'sass-rails'
   spec.add_development_dependency 'compass'
+  spec.add_development_dependency 'yard'
   spec.add_runtime_dependency 'sass', '~> 3'
 end
