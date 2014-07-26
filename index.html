@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Foundation-icons-sass by lilycode</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Foundation-icons-sass</h1>
+        <p>Foundation icons for Compass, Rails and Jekyll.</p>
+
+        <p class="view"><a href="https://github.com/lilycode/foundation-icons-sass">View the Project on GitHub <small>lilycode/foundation-icons-sass</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/lilycode/foundation-icons-sass/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/lilycode/foundation-icons-sass/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/lilycode/foundation-icons-sass">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="foundationiconssass" class="anchor" href="#foundationiconssass"><span class="octicon octicon-link"></span></a>FoundationIcons::Sass</h1>
+
+<p>Foundation icons for your SASS project!</p>
+
+<p>This gem is based heavily on the <a href="https://github.com/FortAwesome/font-awesome-sass">FontAwesome SASS gem</a>, especially the rails engine, helper and railtie which are pretty much just straight up forked from there.</p>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>Add this line to your application's Gemfile:</p>
+
+<div class="highlight highlight-ruby"><pre><span class="n">gem</span> <span class="s1">'foundation-icons-sass'</span>
+</pre></div>
+
+<p>And then execute:</p>
+
+<pre><code>$ bundle
+</code></pre>
+
+<p>Or install it yourself as:</p>
+
+<pre><code>$ gem install foundation-icons-sass
+</code></pre>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>If you use Rails add this to e.g. application.css.scss:</p>
+
+<pre><code>*= require foundation-icons
+</code></pre>
+
+<p>Then you can use the icons as such:</p>
+
+<pre><code>&lt;i class="fi-social-github"&gt;&lt;/i&gt;
+</code></pre>
+
+<h2>
+<a name="rails-helper-usage" class="anchor" href="#rails-helper-usage"><span class="octicon octicon-link"></span></a>Rails Helper usage</h2>
+
+<p>In your view:</p>
+
+<div class="highlight highlight-ruby"><pre>  <span class="n">icon</span><span class="p">(</span><span class="s1">'flag'</span><span class="p">)</span>
+  <span class="c1"># =&gt; &lt;i class="fi-flag"&gt;&lt;/i&gt;</span>
+</pre></div>
+
+<div class="highlight highlight-ruby"><pre>  <span class="n">icon</span><span class="p">(</span><span class="s1">'flag'</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="ss">class</span><span class="p">:</span> <span class="s1">'strong'</span><span class="p">)</span>
+  <span class="c1"># =&gt; &lt;i class="fi-flag strong"&gt;&lt;/i&gt;</span>
+</pre></div>
+
+<div class="highlight highlight-ruby"><pre>  <span class="n">icon</span><span class="p">(</span><span class="s1">'flag'</span><span class="p">,</span> <span class="s1">'Foundation Icon'</span><span class="p">,</span> <span class="nb">id</span><span class="p">:</span> <span class="s1">'my-icon'</span><span class="p">,</span> <span class="ss">class</span><span class="p">:</span> <span class="s1">'strong'</span><span class="p">)</span>
+  <span class="c1"># =&gt; &lt;i id="my-icon" class="fi-flag strong"&gt;&lt;/i&gt; Font Awesome</span>
+</pre></div>
+
+<p>Note: the icon helper can take a hash of options that will be passed to the content_tag helper.</p>
+
+<h2>
+<a name="contributing" class="anchor" href="#contributing"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<ol>
+<li>Fork it ( <a href="https://github.com/lilycode/foundation-icons-sass/fork">https://github.com/lilycode/foundation-icons-sass/fork</a> )</li>
+<li>Create your feature branch (<code>git checkout -b my-new-feature</code>)</li>
+<li>Commit your changes (<code>git commit -am 'Add some feature'</code>)</li>
+<li>Push to the branch (<code>git push origin my-new-feature</code>)</li>
+<li>Create a new Pull Request</li>
+</ol>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/lilycode">lilycode</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
